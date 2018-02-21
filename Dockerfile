@@ -18,3 +18,4 @@ RUN cd /root/postcodes; ./setup.sh
 ADD run.sh /root/postcodes/run.sh
 RUN chmod +x /root/postcodes/run.sh
 CMD cd /root/postcodes; ./run.sh
+EXPOSE 8000
